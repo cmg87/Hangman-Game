@@ -68,3 +68,14 @@ document.onkeyup = function (userguess) {
 
 
 };
+
+
+// while(1==1){
+    // function scroll(){
+        // $("body").animate({ 
+//             backgroundPositionY: "-=10px"
+//         });
+//     };
+// }
+ 
+

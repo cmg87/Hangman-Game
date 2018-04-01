@@ -1,5 +1,8 @@
 body {
-    background-image: url('/home/chris/bootcamp/Hangman-Game/assets/images/starwars.jpg');
+    background-image: url('../images/starwars.jpg');
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    background-position: center; 
     font-family: 'Poller One', cursive;
     color: #ffe919;
 }
