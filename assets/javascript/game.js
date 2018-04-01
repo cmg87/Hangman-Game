@@ -55,6 +55,10 @@ document.onkeyup = function (userguess) {
         randomWord = wordList[Math.floor(Math.random() * wordList.length)]; //variable that selects random word from array
         dashes = [];
         document.getElementById("wrongGuesses").innerHTML = "";
+        for (i = 0; i < randomWord.length; i++) {
+            dashes.push("-");
+            // randomWordArray.push(randomWord[i]);
+        }
 
     }
     if (counter == 0) {
@@ -63,7 +67,10 @@ document.onkeyup = function (userguess) {
         randomWord = wordList[Math.floor(Math.random() * wordList.length)]; //variable that selects random word from array
         dashes = [];
         document.getElementById("wrongGuesses").innerHTML = "";
-
+        for (i = 0; i < randomWord.length; i++) {
+            dashes.push("-");
+            // randomWordArray.push(randomWord[i]);
+        }
     }
 
 
